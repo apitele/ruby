@@ -2,7 +2,7 @@
 
 require 'telegram/bot'
 
-Telegram::Bot::Client.run('التوكن لزكه هنا') do |bot|
+Telegram::Bot::Client.run('392692529:AAHTdQWaA0ot76ilchZwtHPnC4z0T1PTWrk') do |bot|
   bot.listen do |message|
 case message.text
   when '/start', '/start@Tofikobot'
